@@ -148,4 +148,4 @@ def predict(X):
 button = st.button('Predict House Price')
 
 if button:
-    st.write('Predicted ART:',predict(X)[0]*1000000)
+    st.write('Predicted House Price:',predict(X)[0]*1000000)
