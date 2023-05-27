@@ -7,7 +7,7 @@ import datetime as dt
 from sklearn.preprocessing import LabelEncoder
 
 reg=xgb.XGBRegressor()
-reg.load_model(r'/Users/abuhuzaifahbidin/Documents/ML Project/KLHousePrediction/housereg.json')
+reg.load_model('housereg.json')
 
 st.title("KL House Price Prediction by Abu Huzaifah")
 st.write("""Using xgBoost ML Model to Predict KL House Price""")
